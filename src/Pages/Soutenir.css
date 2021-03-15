@@ -1,0 +1,12 @@
+.titre{
+  align-items: center;
+  margin: 150px;
+}
+.soutienstyle img {
+    width: 150px;
+}
+
+.informations{
+    flex-direction: column;
+  
+}

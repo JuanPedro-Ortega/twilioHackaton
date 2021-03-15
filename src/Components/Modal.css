@@ -1,0 +1,57 @@
+/*modification du style de la modale de connexion*/
+.modalFirtsConnexion {
+  font-family: "Lexend Mega", sans-serif !important;
+  /* font-family: "Caveat", cursive !important; */
+  /* font-family: "Indie Flower", cursive !important; */
+  /* font-family: "Nova Round", cursive !important; */
+  /* font-family: "Dosis", sans-serif !important; */
+  /* font-family: "Josefin Sans", serif !important; */
+  height: 80%;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 15px;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+
+/*modification du style du header de la modale de connexion*/
+.modalFirtsConnexion > .header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+.modalBtnClose {
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  position: relative;
+  left: 92%;
+}
+
+.reactModalFirtsConnexion {
+  position: absolute !important;
+  inset: 40px !important;
+  border: 1px solid rgb(204, 204, 204) !important;
+  background-image: url("./modal_first_co.jpg");
+  background-size: 100%;
+  opacity: 1;
+  overflow: auto !important;
+  border-radius: 4px !important;
+  outline: currentcolor none medium !important;
+  padding: 20px !important;
+  border-radius: 15px !important;
+  width: 80% !important;
+  height: 80% !important;
+}
+
+.reactModalFirtsConnexion > .ReactModal__Overlay,
+.ReactModal__Overlay--after-open {
+  align-self: center !important;
+}
